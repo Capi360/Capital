@@ -11,4 +11,4 @@ SELECTED=$(find "$dir" -type f \( \
 
 [ -z "$SELECTED" ] && exit 0
 
-swww img "$SELECTED" --transition-type wipe --transition-duration 1
+awww img "$SELECTED" --transition-type wipe --transition-duration 1
